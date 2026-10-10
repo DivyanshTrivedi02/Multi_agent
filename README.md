@@ -1,21 +1,21 @@
-# 🔷 Quorum: Multi-Agent AI Research Assistant
+# 🔷 Multi_agent: Multi-Agent AI Research Assistant
 
 <p align="center">
-  <img src="assets/demo_running.png" alt="Quorum Agents In Action" width="800"/>
+  <img src="assets/demo_running.png" alt="Multi_agent Agents In Action" width="800"/>
 </p>
 <p align="center">
-  <img src="assets/demo_report.png" alt="Quorum Agents In Action" width="800"/>
+  <img src="assets/demo_report.png" alt="Multi_agent Agents In Action" width="800"/>
 </p>
 
-**Quorum** is a powerful multi-agent AI research pipeline powered by [LangChain](https://python.langchain.com/) and [LangGraph](https://python.langchain.com/docs/langgraph), featuring a modern, highly responsive frontend built with [Streamlit](https://streamlit.io/). 
+**Multi_agent** is a powerful multi-agent AI research pipeline powered by [LangChain](https://python.langchain.com/) and [LangGraph](https://python.langchain.com/docs/langgraph), featuring a modern, highly responsive frontend built with [Streamlit](https://streamlit.io/).
 
-Instead of relying on a single LLM prompt, Quorum coordinates a specialized **team of four AI agents**. These agents work collaboratively in a linear sequence to automate end-to-end web research, comprehensive analysis, and high-quality report generation.
+Instead of relying on a single LLM prompt, Multi_agent coordinates a specialized **team of four AI agents**. These agents work collaboratively in a linear sequence to automate end-to-end web research, comprehensive analysis, and high-quality report generation.
 
 ---
 
 ## 🏗️ Architecture & Pipeline
 
-Quorum uses a stateful agentic workflow. Each agent has a specific role, acting on the data provided by the previous agent.
+Multi_agent uses a stateful agentic workflow. Each agent has a specific role, acting on the data provided by the previous agent.
 
 ```mermaid
 graph TD
@@ -54,8 +54,8 @@ graph TD
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/sakshamsingh22/quorum-multi-agent-research.git
-cd quorum-multi-agent-research
+git clone https://github.com/DivyanshTrivedi02/Multi_agent.git
+cd Multi_agent
 ```
 
 ### 2. Create a virtual environment

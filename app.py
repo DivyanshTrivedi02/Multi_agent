@@ -1,4 +1,4 @@
-"""Quorum: Multi-Agent AI Research Assistant - Streamlit front end.
+"""Multi_agent: Multi-Agent AI Research Assistant - Streamlit front end.
 
 Run with:  streamlit run app.py
 """
@@ -12,7 +12,7 @@ import streamlit as st
 
 from agents import build_reader_agent, build_search_agent, critic_chain, writer_chain
 
-APP_NAME = "Quorum"
+APP_NAME = "Multi_agent"
 APP_TAGLINE = "Multi-Agent AI Research Assistant"
 
 # key, name, initial, what the agent does, who it hands off to
